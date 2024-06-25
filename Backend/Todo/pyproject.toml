@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "fastapi-todolist"
+version = "0.1.0"
+description = ""
+authors = ["MuhammadTaha27"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = {extras = ["standard"], version = "^0.29.0"}
+sqlmodel = "^0.0.16"
+psycopg = {extras = ["binary"], version = "^3.1.18"}
+pytest = "^8.1.1"
+httpx = "^0.27.0"
+mypy = "^1.9.0"
+neon = "^0.1.2"
+starlette = "^0.37.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
